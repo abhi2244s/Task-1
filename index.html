@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div>
+    <!-- sidebar -->
+    <div class="container">
+
+      <div class="sidebar-container">
+        <div class="sidebar-top">
+          <input type="checkbox" id="check" />
+          <div class="menu-icon">
+            <label for="check">
+              <i class="ri-menu-line hamburger"></i>
+            </label>
+          </div>
+          <div class="menu-logo">
+            <img
+              src="https://media.licdn.com/dms/image/C510BAQHg6A_R4HPnZg/company-logo_200_200/0/1541481256935?e=2147483647&v=beta&t=aEI48RJsTU5h3xYdFIyhU3oOTVRYecI9nwUUelRUvsg"
+              alt="logo" class="image-container" />
+          </div>
+        </div>
+        <div class="sidebar-down">
+          <div class="content">
+            <div>
+              <p>Manage</p>
+            </div>
+            <div class="arrow">
+              <i class="ri-arrow-down-s-line down-arrow"></i>
+            </div>
+          </div>
+          <p class="p-sidebar-1">Moderate</p>
+          <p class="p-sidebar">Tag</p>
+          <p class="p-sidebar">Compliance</p>
+          <p class="p-sidebar">Payments</p>
+          <p class="p-sidebar">Advance Settings</p>
+          <div class="content">
+            <div>
+              <p>Users</p>
+            </div>
+            <div class="arrow">
+              <i class="ri-arrow-down-s-line down-arrow"></i>
+            </div>
+          </div>
+          <p class="p-sidebar-1">Admin</p>
+          <p class="p-sidebar">Contact</p>
+          <div class="content">
+            <div>
+              <p>Engagements</p>
+            </div>
+            <div class="arrow">
+              <i class="ri-arrow-down-s-line down-arrow"></i>
+            </div>
+          </div>
+          <p class="p-sidebar-1">Projects</p>
+          <p class="p-sidebar">Calls</p>
+          <p class="p-sidebar">Calendars</p>
+          <div class="content">
+            <div>
+              <p>Experts</p>
+            </div>
+            <div class="arrow">
+              <i class="ri-arrow-down-s-line down-arrow"></i>
+            </div>
+          </div>
+          <p class="p-sidebar-1-border">Expert Search</p>
+          <p class="p-sidebar">Value Chain</p>
+        </div>
+      </div>
+      <!-- sidbar left -->
+      <div class="sidebar-left">
+        <!-- navabar -->
+        <div class="nav-container">
+          <div>
+            <p class="experts">Our Experts</p>
+          </div>
+          <div class="input">
+            <span class="input-1"> <i class="ri-search-line"></i></span>
+            <span class="input-2">Search By Name , Expertise , Status</span>
+          </div>
+          <div class="flex">
+            <button>Add Expert</button>
+            <div class="user">
+              <span><i class="ri-user-line"></i></span>
+              <span>Vijay Sharma</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- table -->
+        <div style="overflow-x:auto; margin-left: 10px;">
+          <table>
+            <tr>
+              <th> Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>ID</th>
+              <th>Cost Price</th>
+              <th>Created on</th>
+              <th>Status</th>
+              <th>Call</th>
+              <th>Project</th>
+              <th>Bad Calls</th>
+              <th>Ratings</th>
+              <th>More</th>
+              <th>Actions</th>
+
+            </tr>
+
+            <tr>
+              <td>Vinay Verma</td>
+              <td>VinayVerma123@gmail.com</td>
+              <td>123456789</td>
+              <td>5523</td>
+              <td>2000</td>
+              <td>27 July 2022</td>
+              <td class="identified">Identified</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><i class="ri-more-2-fill"></i></td>
+              <td class="call"><i class="ri-phone-line"></i></td>
+            </tr>
+            <tr>
+              <td>Vinay Verma</td>
+              <td>VinayVerma123@gmail.com</td>
+              <td>123456789</td>
+              <td>5523</td>
+              <td>2000</td>
+              <td>27 July 2022</td>
+              <td class="contacted">Contacted</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><i class="ri-more-2-fill"></i></td>
+              <td class="call"><i class="ri-phone-line">
+            </tr>
+            <tr>
+              <td>Vinay Verma</td>
+              <td>VinayVerma123@gmail.com</td>
+              <td>123456789</td>
+              <td>5523</td>
+              <td>2000</td>
+              <td>27 July 2022</td>
+              <td class="confirmed">Confirmed</td>
+              <td class="num">270</td>
+              <td class="num">20</td>
+              <td class="bad">5</td>
+              <td class="bad">4.6</td>
+              <td><i class="ri-more-2-fill"></i></td>
+              <td class="call"><i class="ri-phone-line">
+
+            </tr>
+            <tr>
+              <td>Vinay Verma</td>
+              <td>VinayVerma123@gmail.com</td>
+              <td>123456789</td>
+              <td>5523</td>
+              <td>2000</td>
+              <td>27 July 2022</td>
+              <td class="Pending">Pending Update</td>
+              <td class="num">270</td>
+              <td class="num">20</td>
+              <td class="bad">5</td>
+              <td class="bad">4.6</td>
+              <td><i class="ri-more-2-fill"></i></td>
+              <td class="call"><i class="ri-phone-line">
+            </tr>
+            <tr>
+              <td>Vinay Verma</td>
+              <td>VinayVerma123@gmail.com</td>
+              <td>123456789</td>
+              <td>5523</td>
+              <td>2000</td>
+              <td>27 July 2022</td>
+              <td class="refused">Refused</td>
+              <td class="num">270</td>
+              <td class="num">20</td>
+              <td class="bad">5</td>
+              <td class="bad">4.6</td>
+              <td><i class="ri-more-2-fill"></i></td>
+              <td class="call"><i class="ri-phone-line">
+            </tr>
+            <tr>
+              <td>Vinay Verma</td>
+              <td>VinayVerma123@gmail.com</td>
+              <td>123456789</td>
+              <td>5523</td>
+              <td>2000</td>
+              <td>27 July 2022</td>
+              <td class="onboarding">Onboarding</td>
+              <td class="num">270</td>
+              <td class="num">20</td>
+              <td class="bad">5</td>
+              <td class="bad">4.6</td>
+              <td><i class="ri-more-2-fill"></i></td>
+              <td class="call"><i class="ri-phone-line">
+            </tr>
+            </hr />
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
